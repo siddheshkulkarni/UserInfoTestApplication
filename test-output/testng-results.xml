@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14811" started-at="2018-08-10T19:50:27Z" finished-at="2018-08-10T19:50:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14811" started-at="2018-08-10T19:50:27Z" finished-at="2018-08-10T19:50:42Z">
+      <class name="com.tests.LoginAndRegistrationTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.tests.LoginAndRegistrationTests@55f3ddb1]" name="init" is-config="true" duration-ms="16" started-at="2018-08-10T19:50:27Z" finished-at="2018-08-10T19:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testLoginPageLoads()[pri:1, instance:com.tests.LoginAndRegistrationTests@55f3ddb1]" name="testLoginPageLoads" duration-ms="4279" started-at="2018-08-10T19:50:27Z" finished-at="2018-08-10T19:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageLoads -->
+        <test-method status="PASS" signature="testRegisterUserFunctionality()[pri:2, instance:com.tests.LoginAndRegistrationTests@55f3ddb1]" name="testRegisterUserFunctionality" duration-ms="2212" started-at="2018-08-10T19:50:31Z" finished-at="2018-08-10T19:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUserFunctionality -->
+        <test-method status="PASS" signature="testloginUserFunctionality()[pri:2, instance:com.tests.LoginAndRegistrationTests@55f3ddb1]" name="testloginUserFunctionality" duration-ms="1804" started-at="2018-08-10T19:50:34Z" finished-at="2018-08-10T19:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloginUserFunctionality -->
+        <test-method status="PASS" signature="testDeleteUserFunctionality()[pri:2, instance:com.tests.LoginAndRegistrationTests@55f3ddb1]" name="testDeleteUserFunctionality" duration-ms="4226" started-at="2018-08-10T19:50:35Z" depends-on-methods="com.tests.LoginAndRegistrationTests.testRegisterUserFunctionality" finished-at="2018-08-10T19:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserFunctionality -->
+        <test-method status="PASS" signature="testResetUserFunctionality()[pri:3, instance:com.tests.LoginAndRegistrationTests@55f3ddb1]" name="testResetUserFunctionality" duration-ms="2237" started-at="2018-08-10T19:50:40Z" finished-at="2018-08-10T19:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResetUserFunctionality -->
+      </class> <!-- com.tests.LoginAndRegistrationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
